@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="BlogTesting.FullAPITesting">
+        <methods>
+          <include name="gettingdefinedBlogs"/>
+          <include name="login"/>
+          <include name="updateBlogs"/>
+          <include name="gettingAllBlogs"/>
+          <include name="registering"/>
+          <include name="postBlogs"/>
+          <include name="deleteBlogs"/>
+        </methods>
+      </class> <!-- BlogTesting.FullAPITesting -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
